@@ -3,3 +3,24 @@
   width: 750rpx;
   height: 500rpx;
 }
+
+.animation {
+  width: 300rpx;
+  height: 300rpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: move ease-in-out 1s both;
+}
+
+@keyframes move {
+  from {
+    top: 0;
+    left: 0;
+  }
+
+  to {
+    top: 100rpx;
+    left: 100rpx;
+  }
+}
